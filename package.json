@@ -1,0 +1,19 @@
+{
+  "name": "klieven",
+  "version": "1.0.0",
+  "description": "Klieven App",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelkaderkasmi/klieven.git"
+  },
+  "author": "Abdelkader KASMI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelkaderkasmi/klieven/issues"
+  },
+  "homepage": "https://github.com/abdelkaderkasmi/klieven#readme"
+}
