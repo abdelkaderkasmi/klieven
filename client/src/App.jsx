@@ -6,19 +6,21 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <EthProvider>
-      <div id="App">
-        <div className="container">
-          <Intro />
-          <hr />
-          <Setup />
-          <hr />
-          <Demo />
-          <hr />
-          <Footer />
-        </div>
-      </div>
-    </EthProvider>
+    <h1 align="center">Klieven</h1>
+    // <EthProvider>
+    //   <div id="App">
+    //     TT
+    //     <div className="container">
+    //       <Intro />
+    //       <hr />
+    //       <Setup />
+    //       <hr />
+    //       <Demo />
+    //       <hr />
+    //       <Footer />
+    //     </div>
+    //   </div>
+    // </EthProvider>
   );
 }
 
