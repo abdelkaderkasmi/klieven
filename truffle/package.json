@@ -4,7 +4,7 @@
   "description": "Truffle project with SimpleStorage contract",
   "scripts": {
     "test": "truffle test",
-    "start": "node cleint/src/index.js"
+    "start": "node cleint/src/App.jsx"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.1.7"
