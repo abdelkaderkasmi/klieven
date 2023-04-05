@@ -15,9 +15,8 @@ const App =() => {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button onClick={handleClick}> TEST</button>
+        {/* <button onClick={handleClick}> TEST</button> */}
         <p>{message}</p>
       </header>
     </div>
