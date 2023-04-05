@@ -1,21 +1,30 @@
 {
   "name": "klieven",
   "version": "1.0.0",
-  "description": "Klieven App",
-  "main": "App.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install react-scripts react-dom web3 && (cd client && react-scripts start)"
-
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abdelkaderkasmi/klieven.git"
   },
-  "author": "Abdelkader KASMI",
+  "author": "kasmiab",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abdelkaderkasmi/klieven/issues"
   },
-  "homepage": "https://github.com/abdelkaderkasmi/klieven#readme"
+  "homepage": "https://github.com/abdelkaderkasmi/klieven#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
